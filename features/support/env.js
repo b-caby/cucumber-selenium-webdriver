@@ -1,0 +1,8 @@
+/*jslint node: true */
+'use strict';
+
+var configure = function () {
+    this.setDefaultTimeout(60 * 1000);
+};
+
+module.exports = configure;
