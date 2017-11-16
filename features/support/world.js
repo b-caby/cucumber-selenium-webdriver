@@ -25,7 +25,6 @@ var getDriver = function() {
 var World = function World() {
 
   var defaultTimeout = 20000;
-  global.page = requireDir("../page_objects", {camelcase: true});
 
   this.webdriver = webdriver;
   this.driver = driver;
