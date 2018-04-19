@@ -29,5 +29,4 @@ module.exports = function() {
     var condition = this.webdriver.until.elementLocated({xpath: xpath});
     return this.driver.wait(condition, 5000);
   });
-
 };

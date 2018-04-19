@@ -4,8 +4,6 @@
 require('chromedriver');
 const fs = require('fs');
 const webdriver = require('selenium-webdriver');
-const path = require('path');
-const requireDir = require('require-dir');
 
 var buildChromeDriver = function() {
   return new webdriver.Builder().

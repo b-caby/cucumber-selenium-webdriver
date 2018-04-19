@@ -2,6 +2,8 @@
 
 ## Execution des tests
 
-Pull le projet puis lancer la commande suivante sur la racine du projet :
+ - Pull le projet
+ - npm install les modules
+ - Lancer la commande suivante sur la racine du projet :
 
  ./node_modules/.bin/cucumber-js -f pretty -f json:reports/cucumber-report.json
